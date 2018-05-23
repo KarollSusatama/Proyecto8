@@ -8,7 +8,7 @@ import org.hibernate.Transaction;
 import com.edu.ubosque.prg.util.HibernateUtil;
 
 public class UserDAOImpl implements UserDAO {
-
+//Estoy modificando para el repositorio
 	public void save(User usuario) {
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		Transaction t = session.beginTransaction();
